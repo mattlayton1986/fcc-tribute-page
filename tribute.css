@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
+/*** Variables ***/
+/*** Styles ***/
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #6e6e6e;
+  color: #393939; }
+
+a {
+  color: #5f5f5f; }
+  a:hover {
+    text-decoration: none;
+    color: #2c2c2c; }
+
+.row {
+  margin-bottom: 20px; }
+
+header {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(57, 57, 57, 0.4); }
+  header h1 {
+    font-size: 4.5em; }
+  header h2 {
+    color: #a23500; }
+
+.tesla {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.35); }
+
+.well {
+  padding: 0;
+  background-color: #bf510c;
+  border: 1px solid #a1a1a1;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.35); }
+
+.list-group {
+  margin: 20px; }
+
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(57, 57, 57, 0.4); }
+
+.list-group-item-heading {
+  font-weight: bold; }
+
+.more-info {
+  font-size: 0.75em; }
+
+.author {
+  text-align: center; }
+
+.author a {
+  color: #a23500; }
+  .author a:hover {
+    color: #6f2500; }
+
+/*# sourceMappingURL=tribute.css.map */

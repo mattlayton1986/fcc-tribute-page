@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
+
+/*** Variables ***/
+$slate: #393939;
+$cobalt: #6e6e6e;
+$mango: #ff5a09;
+$melon: #f3843e;
+$tangerine: #ff9900;
+
+/*** Styles ***/
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	// border: 1px solid red !important;
+}
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	background-color: $cobalt;
+	color: $slate;
+}
+
+a {
+	color: lighten($slate, 15%);
+	&:hover {
+		text-decoration: none;
+		color: darken($slate, 5%);
+	}
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+header {
+	padding-bottom: 15px;
+	border-bottom: 1px solid transparentize($slate, .6);
+	h1 {
+		font-size: 4.5em;
+	}
+	h2 {
+		color: darken($mango, 20%);
+	}
+}
+
+.tesla {
+	display: block;
+	margin: 0 auto;
+	box-shadow: 2px 2px 2px 2px transparentize(darken($slate, 40%), 0.65);
+}
+
+.well {
+	padding: 0;
+	background-color: darken($melon, 20%);
+	border: 1px solid lighten($cobalt, 20%);
+	box-shadow: 2px 2px 2px 2px transparentize(darken($slate, 40%), 0.65);
+}
+
+.list-group {
+	margin: 20px;
+
+}
+
+.list-group-item {
+	background-color: transparentize(white, 0.6);
+	border: 1px solid transparentize($slate, .6);
+}
+
+.list-group-item-heading {
+	font-weight: bold;
+}
+
+.more-info {
+	font-size: 0.75em;
+}
+
+.author {
+	text-align: center;
+}
+
+.author a {
+	color: darken($mango, 20%);
+	&:hover {
+		color: darken($mango, 30%);
+	}
+}
