@@ -10,8 +10,8 @@ This is a beginner-level project utilizing basic HTML and CSS techniques to buil
 * Live project code on [CodePen](http://codepen.io/mattlayton1986/pen/GobvwL)
 
 ## Questions ##
-This section links to any online questions I've asked about this project. Feel free to contribute answers if you have one!
-* [Why is my font-size rendering differently between my local HTML file and when launched from Codepen?](http://stackoverflow.com/q/35591685/5295093)
+This section links to any online questions I've asked about this project. Feel free to contribute answers if you have one!  
+* [Why is my font-size rendering differently between my local HTML file and when launched from Codepen?](http://stackoverflow.com/q/35591685/5295093)  
 
 ## About this Repo ##
 This is a beginner-level project utilizing basic HTML and CSS techniques to build a webpage that pays tribute to a person. (**NOTE**: I also chose to incorporate the Bootstrap framework and Sass CSS preprocessor into my project.)
