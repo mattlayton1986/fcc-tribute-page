@@ -1,20 +1,15 @@
+/*** Imports ***/
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
 
-/*** Variables ***/
+// Variables
 $slate: #393939;
 $cobalt: #6e6e6e;
 $mango: #ff5a09;
 $melon: #f3843e;
-$tangerine: #ff9900;
 
 /*** Styles ***/
 html {
 	box-sizing: border-box;
-}
-
-*, *:before, *:after {
-	box-sizing: inherit;
-	// border: 1px solid red !important;
 }
 
 body {
